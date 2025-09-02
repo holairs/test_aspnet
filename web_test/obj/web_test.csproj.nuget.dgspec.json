@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ivan.rosales/RiderProjects/web_test/web_test/web_test.csproj": {}
+    "/Users/ivan.rosales/Learning/Net/test_aspnet/web_test/web_test.csproj": {}
   },
   "projects": {
-    "/Users/ivan.rosales/RiderProjects/web_test/web_test/web_test.csproj": {
+    "/Users/ivan.rosales/Learning/Net/test_aspnet/web_test/web_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ivan.rosales/RiderProjects/web_test/web_test/web_test.csproj",
+        "projectUniqueName": "/Users/ivan.rosales/Learning/Net/test_aspnet/web_test/web_test.csproj",
         "projectName": "web_test",
-        "projectPath": "/Users/ivan.rosales/RiderProjects/web_test/web_test/web_test.csproj",
+        "projectPath": "/Users/ivan.rosales/Learning/Net/test_aspnet/web_test/web_test.csproj",
         "packagesPath": "/Users/ivan.rosales/.nuget/packages/",
-        "outputPath": "/Users/ivan.rosales/RiderProjects/web_test/web_test/obj/",
+        "outputPath": "/Users/ivan.rosales/Learning/Net/test_aspnet/web_test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ivan.rosales/.nuget/NuGet/NuGet.Config"
