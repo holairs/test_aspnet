@@ -3,13 +3,10 @@ using web_test.Models.Domain;
 
 namespace web_test.Repositories;
 
-public class BlogPostRepository: IBlogPostRepository
+public class BlogPostRepository : IBlogPostRepository
 {
-    public BlogPostRepository(WebDbContext webContext)
-    {
-        
-    }
-    
+    public BlogPostRepository(WebDbContext webContext) { }
+
     public Task<IEnumerable<BlogPost>> GetAllAsync()
     {
         throw new NotImplementedException();
@@ -35,3 +32,4 @@ public class BlogPostRepository: IBlogPostRepository
         throw new NotImplementedException();
     }
 }
+
