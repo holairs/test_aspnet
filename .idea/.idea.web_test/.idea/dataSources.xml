@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="WebDb@localhost" uuid="af6a6797-2f14-4cbc-aa09-d140e6345f0b">
+    <data-source source="LOCAL" name="test_express@localhost" uuid="b703b52a-0244-4bf4-9eed-e9f0c35bbc04">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost,5432/test_express?password=Panic!&amp;user=holairs</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="sql_test_csharp@localhost" uuid="61d3267a-04ee-4308-b29a-9ea725bd7f52">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
-      <jdbc-url>Server=localhost,1433;Database=WebDb;User Id=sa;Password=YourStrongPassword!;Encrypt=False;TrustServerCertificate=True</jdbc-url>
+      <jdbc-url>Server=localhost,1433;Database=sql_test_csharp;User Id=sa;Password=SuperSecureP@ssword123;Encrypt=False;TrustServerCertificate=True</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

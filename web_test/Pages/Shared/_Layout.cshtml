@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@ViewData["Title"] - web_test</title> <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <title>@ViewData["Title"] - web_test</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/web_test.styles.css" asp-append-version="true"/>
 </head>
@@ -12,7 +13,8 @@
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow">
         <div class="container">
             <a class="navbar-brand" asp-area="" asp-page="/Index">web_test</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,17 +27,22 @@
                         <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
                     </li>
                     <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false"
-                                    id="navbarDropdownAdmin">
-                                Admin
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false"
+                           id="navbarDropdownAdmin">
+                            Admin
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownAdmin">
-                                <li>
-                                        <a class="drowpdown-item" href="/admin/blogs/add">
-                                                Add Blog Post
-                                        </a>
-                                <li>
+                            <li>
+                                <a class="drowpdown-item" href="/admin/blogs/add">
+                                    Add Blog Post
+                                </a>
+                            <li>
+                            <li>
+                                <a class="drowpdown-item" href="/admin/blogs/list">
+                                    Show Posts
+                                </a>
+                            <li>
                         </ul>
                     </li>
                 </ul>
@@ -43,9 +50,9 @@
         </div>
     </nav>
 </header>
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
+<main role="main" class="pb-3">
+    @RenderBody()
+</main>
 
 <footer class="border-top footer text-muted">
     <div class="container">
